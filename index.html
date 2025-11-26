@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<button class="btn" onclick="scrollToSection('materi')">Mulai Belajar</button>
+</section>
+
+
+<section id="materi">
+<h2>Materi Pembelajaran</h2>
+<div class="grid">
+<div class="card" onclick="alert('Masuk ke materi Ginjal')">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgYLK1prMYFbYo4digW-AJfi1hXsKyRR8K1w&s" />
+<p>Ginjal — Struktur, mekanisme kerja, gangguan, dan teknologi.</p>
+</div>
+<div class="card" onclick="alert('Masuk ke materi Hati')">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSJ7F-NRUsybqG319o12wPfYTFlAwP_bhkhg&s" />
+<p>Hati — Fungsi metabolisme, detoksifikasi, dan gangguan medis.</p>
+</div>
+<div class="card" onclick="alert('Masuk ke materi Paru-paru')">
+<img src="https://www.kelaspintar.id/_next/image?url=https%3A%2F%2Fblog2.kelaspintar.id%2Fblog%2Fwp-content%2Fuploads%2F2019%2F05%2Flung.jpg&w=3840&q=75" />
+<p>Paru-paru — Pertukaran gas dan peran ekskresi CO₂.</p>
+</div>
+<div class="card" onclick="alert('Masuk ke materi Kulit')">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7TQnNGFL6N8SemSP-1HsqzOIZYI9t8_bs8w&s" />
+<p>Kulit — Ekskresi keringat, perlindungan, dan pengaturan suhu.</p>
+</div>
+</div>
+</section>
+
+
+<section id="video">
+<h2>Video Pembelajaran</h2>
+<iframe src="https://www.youtube.com/embed/qpw945e3wZo" allowfullscreen></iframe>
+</section>
+
+
+<section id="forum">
+<h2>Forum Diskusi</h2>
+<div class="forum-box">
+<input type="text" id="forumInput" class="forum-input" placeholder="Tulis pesan..." />
+<button class="btn" onclick="postMessage()">Kirim</button>
+<div id="messages"></div>
+</div>
+</section>
+
+
+<script src="script.js"></script>
+</body>
+</html>
